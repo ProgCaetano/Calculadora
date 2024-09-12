@@ -1,0 +1,41 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#calculadora{
+    background-color: #808080;
+    width: 300px;
+    height: 450px;
+    margin: 50px;
+    border-radius: 3px;
+    border: 5px solid rgba(0, 0, 0, 0.055);
+    
+}
+
+#display{
+    margin: auto;
+    background-color: rgb(83, 131, 115);
+    width: 230px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+table{
+    
+    width: 300px;
+    height: 400px;
+}
+
+table td {
+    border: 1px solid black;
+    width: 75px;
+    
+}
+
+td#igual{
+    background-color: rgba(255, 0, 0, 0.562);
+}
