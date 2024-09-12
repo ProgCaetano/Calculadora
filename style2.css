@@ -3,25 +3,37 @@
 body{
     display: flex;
     justify-content: center;
+
 }
 #calculadora{
     background-color: grey;
     width: 250px;
     height: 400px;
     border-radius: 5px;
+    border: 2px solid;
+    box-shadow: 2px 2px 5px;
     text-align: center;
 
+}
 
-    
-    
+#separar{
+    background-color: aliceblue;
+    width: 250px;
+    height: 0.2px;
+    margin-bottom: 5px;
+    margin-bottom: 9px;
 }
 
 #display{
+
     background-color: rgba(44, 126, 98, 0.582);
-    width: 220px;
+    width: 210px;
     height: 30px;
+    border: 2px solid;
+    box-shadow: 1px 1px 6px;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 30px;
     
 }
 
