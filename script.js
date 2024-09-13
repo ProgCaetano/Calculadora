@@ -1,5 +1,5 @@
 let visor = document.getElementById('display');
-let botao = document.getElementsByClassName("button");
+let bot = document.getElementsByClassName('botao');
 
 
 function adicionarDisplay(){
@@ -8,4 +8,4 @@ function adicionarDisplay(){
 }
 
 
-botao.addEventListener('click',adicionarDisplay);
+bot.addEventListener('click',adicionarDisplay);
